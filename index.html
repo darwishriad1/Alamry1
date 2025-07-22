@@ -1,89 +1,128 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <title>دوري الثمانية - براعم نجوم العمري</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دوري براعم نجوم العمري - 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background: linear-gradient(to right, #001f3f, #003366);
+      margin: 0;
+      background: #111;
       color: #fff;
-      padding: 30px;
+    }
+    header {
+      background: #222;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 4px solid #0ff;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #0ff;
+    }
+    nav {
+      background: #0ff;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #111;
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #111;
+      color: #0ff;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      border-right: 5px solid #0ff;
+      padding-right: 0.5rem;
+      color: #0ff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #444;
       text-align: center;
     }
-    h1 {
-      font-size: 36px;
-      color: gold;
-      text-shadow: 2px 2px #000;
-      margin-bottom: 10px;
+    th {
+      background: #0ff;
+      color: #111;
     }
-    .subtitle {
-      font-size: 20px;
-      margin-bottom: 30px;
-      color: #ddd;
-    }
-    .match-day {
-      background: #111;
-      margin: 20px auto;
-      padding: 15px;
-      border-radius: 15px;
-      width: 90%;
-      max-width: 500px;
-      box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
-      border: 2px solid #444;
-    }
-    .match-day:hover {
+    footer {
       background: #222;
-      transform: scale(1.02);
-      transition: 0.3s ease-in-out;
-    }
-    .teams {
-      font-size: 24px;
-      color: #00ffff;
-      margin: 10px 0;
-    }
-    .date {
-      color: #ccc;
-      font-size: 18px;
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 18px;
+      padding: 1rem;
+      text-align: center;
       color: #aaa;
+      border-top: 4px solid #0ff;
     }
-    .highlight {
-      color: #ffdf00;
-      font-weight: bold;
+    .matchup {
+      background: #222;
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 2px dashed #0ff;
+      text-align: center;
+    }
+    .matchup strong {
+      font-size: 1.3rem;
     }
   </style>
 </head>
 <body>
-  <h1>🏆 دوري الثمانية 🏆</h1>
-  <div class="subtitle">براعم نجوم العمري - نسخة 2025</div>
-
-  <div class="match-day">
-    <div class="date">الخميس 2025/7/24</div>
-    <div class="teams"><span class="highlight">العزاني</span> ↔️ الحيد</div>
-  </div>
-
-  <div class="match-day">
-    <div class="date">الجمعة 2025/7/25</div>
-    <div class="teams">الاتحاد ↔️ <span class="highlight">ولخ</span></div>
-  </div>
-
-  <div class="match-day">
-    <div class="date">السبت 2025/7/26</div>
-    <div class="teams"><span class="highlight">نجوم السبسب</span> ↔️ الحاجب</div>
-  </div>
-
-  <div class="match-day">
-    <div class="date">الأحد 2025/7/27</div>
-    <div class="teams">الرضام ↔️ الخضراء</div>
-  </div>
-
-  <div class="footer">
-    اللجنة المنظمة لدوري براعم نجوم العمري 🌟<br>
-    إعداد: <strong>يوسف عبدالمجيد</strong>
-  </div>
+  <header>
+    <h1>🏆 دوري براعم نجوم العمري - 2025 🏆</h1>
+  </header>
+  <nav>
+    <a href="#schedule">جدول المباريات</a>
+    <a href="#teams">الفرق</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>  <section id="schedule">
+    <h2>📅 جدول مباريات دور الثمانية</h2>
+    <div class="matchup">
+      <strong>الخميس 2025/7/24:</strong> العزاني ↔️ الحيد
+    </div>
+    <div class="matchup">
+      <strong>الجمعة 2025/7/25:</strong> الاتحاد ↔️ ولخ
+    </div>
+    <div class="matchup">
+      <strong>السبت 2025/7/26:</strong> نجوم السبسب ↔️ الحاجب
+    </div>
+    <div class="matchup">
+      <strong>الأحد 2025/7/27:</strong> الرضام ↔️ الخظراء
+    </div>
+  </section>  <section id="teams">
+    <h2>👥 الفرق المشاركة</h2>
+    <table>
+      <tr>
+        <th>اسم الفريق</th>
+        <th>عدد المباريات</th>
+        <th>النقاط</th>
+      </tr>
+      <tr><td>العزاني</td><td>3</td><td>7</td></tr>
+      <tr><td>الحيد</td><td>3</td><td>6</td></tr>
+      <tr><td>الاتحاد</td><td>3</td><td>9</td></tr>
+      <tr><td>ولخ</td><td>3</td><td>4</td></tr>
+      <tr><td>نجوم السبسب</td><td>3</td><td>6</td></tr>
+      <tr><td>الحاجب</td><td>3</td><td>5</td></tr>
+      <tr><td>الرضام</td><td>3</td><td>8</td></tr>
+      <tr><td>الخظراء</td><td>3</td><td>7</td></tr>
+    </table>
+  </section>  <section id="contact">
+    <h2>📞 للتواصل والاستفسار</h2>
+    <p>للتواصل مع اللجنة المنظمة لدوري براعم نجوم العمري:</p>
+    <p>📱 واتساب: <strong>+967775765321</strong> (يوسف عبدالمجيد)</p>
+  </section>  <footer>
+    <p>© 2025 دوري براعم نجوم العمري | جميع الحقوق محفوظة</p>
+  </footer>
 </body>
 </html>
